@@ -30,7 +30,7 @@ else:
     sock, address = server.accept()
     print(f"Connected to peer at {address}")
 
-
+# Question 2
 # Function to continuously receive messages
 def receive():
     while True:
